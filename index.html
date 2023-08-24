@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> 라스의 웹사이트입니다 </title>
+
+        <style>
+            body {
+                background-color: #F4F3EA;
+                background-size: 100% 600%;
+                }
+            h1 {font-size:50px; text-align: center;}
+            p {color:rgb(197, 52, 52);}
+
+            .rounded
+            {
+                background:white;
+                height : 90% 90%;
+                border-radius:15px;
+            }
+
+        </style>
+
+        <script>
+
+            const userId =
+            [
+            'zcbm5829',
+            'abc1234'
+            ];
+
+            const userPW =
+            [
+            'bbeeyy5829',
+            '1234'
+            ];
+
+            const userNAME =
+            [
+            '라스',
+            '테스트'
+            ]
+
+            function Pass()
+            {
+                if(userId.includes(id.value))
+                {
+                    if(pw.value == userPW[userId.indexOf(id.value)])
+                    {
+                        alert(userNAME[userId.indexOf(id.value)]+"님 환영합니다!");
+                    }else
+                    {
+                        alert("비밀번호를 확인해주세요.");
+                    }
+
+                }else
+                {
+                    alert("아이디와 비밀번호를 확인해주세요.");
+                }
+
+            }
+
+        </script>
+    </head>
+
+
+    <body>
+        <h1> 사이트 </h1>
+        <div class="rounded">
+            <input id="id"><input id="pw" type="password">
+            <input type="button" value="로그인" onclick="Pass()" >
+
+        </div>
+
+    </body>
+
+</html>
