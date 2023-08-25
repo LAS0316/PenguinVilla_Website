@@ -3,7 +3,8 @@
             'zcbm5829',
             'abc1234',
             'thdwlgn',
-            'toyotoyo0705'
+            'toyotoyo0705',
+            'jibboong'
             ];
 
             const userPW =
@@ -11,7 +12,8 @@
             'bbeeyy5829',
             '1234',
             'a1b2c3d4',
-            'akvhqkqh1234'
+            'akvhqkqh1234',
+            'bbiriribbangbborong'
             ];
 
             const userNAME =
@@ -19,7 +21,8 @@
             '라스',
             '테스트',
             '토레비',
-            '마포'
+            '마포',
+            '지풍'
             ]
 
             const userCode = 
@@ -27,7 +30,8 @@
                 '100',
                 '999',
                 '203',
-                'gast'
+                'gast',
+                '202'
             ]
 
             var name_user;
@@ -62,14 +66,17 @@
 
             }
 
-            function onload(){
+            function Login(){
 
                 name_user = localStorage.getItem('name_user_move');
                 code_user = localStorage.getItem('code_user_move');
 
+                code_user = code_user + "호";
+
                 document.getElementById("name_user").innerHTML=name_user;
+                document.getElementById("code_user").innerHTML=code_user;
             }
 
-            onload();
+
 
 

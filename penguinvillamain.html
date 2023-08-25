@@ -9,6 +9,10 @@
 
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Noto+Serif+KR:wght@600&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 
             body {
                 background-color: rgb(255, 253, 241);
@@ -22,9 +26,22 @@
                 margin: 0;
             }
 
-            h2{
+            h2
+            {
+
                 padding : 0;
-                margin: 0;
+                font-family: 'Diphylleia', serif;
+                margin: 0 auto;
+                text-align: center;
+                
+            }
+
+            p
+            {
+                font-family: 'Diphylleia', serif;
+                font-family: 'Noto Serif KR', serif;
+                margin: 0 auto;
+                text-align: center;
             }
 
             .rounded
@@ -36,16 +53,23 @@
                 margin: 0 auto;
             }
 
+            h3
+            {
+                font-family: 'Nanum Gothic', sans-serif;
+                margin: 0 auto;
+                text-align: center;
+            }
+
         </style>
         
-        <script src="script_main.js">        </script>
+        
 
     </head>
 
 
     <body>
 
-        
+        <script src="script_main.js"> </script>
 
         <div class="radius_img" style = "text-align:center;" >
             <img src="img/RPG_00000.png" alt="이미지 불러오기 오류에용 ㅠㅠ" width="96%" 
@@ -63,15 +87,19 @@
 
             <div style="float:left; width:2%; height: 100px;"></div>
 
-            <div class="rounded" style="float:left; width:20%; height: 110px;">
+            <div class="rounded" style="float:left; width:20%; height: 130px;">
 
-                <div id="name_user"></div>    
+                <p style="font-size: 5px;">　</p>
+                <h3 style="color: gray; font-size : 13px; "> 사용자 정보</h3>
+                <p style="font-size: 1px;">　</p>
+                <p id="name_user"></p>  
+                <p id="code_user" style="font-size: 30px;"></p>  
                 
             </div>
 
             <div style="float:left; width:1%; height: 100px;"></div>
 
-            <div class="rounded" style="float:left; width:75%; height: 110px;">
+            <div  style="float:left; width:75%; height: 110px;">
 
                 <h1> PenguinVilla</h1>
                 <h2>품격있는 별장</h2>
@@ -85,7 +113,8 @@
                 메인내용<br><br><br><br><br><br>
             </div>
 
-            <input type="button" value="로그인" onclick="onload();">
+
+            <script> Login(); </script>
 
     </body>
 
