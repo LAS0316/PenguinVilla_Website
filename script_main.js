@@ -4,7 +4,8 @@
             'abc1234',
             'thdwlgn',
             'toyotoyo0705',
-            'jibboong'
+            'jibboong',
+            'puppisi3'
             ];
 
             const userPW =
@@ -13,7 +14,8 @@
             '1234',
             'a1b2c3d4',
             'akvhqkqh1234',
-            'bbiriribbangbborong'
+            'bbiriribbangbborong',
+            'Nabinunbaboya0113'
             ];
 
             const userNAME =
@@ -22,7 +24,8 @@
             '테스트',
             '토레비',
             '마포',
-            '지풍'
+            '지풍',
+            '토이'
             ]
 
             const userCode = 
@@ -31,7 +34,8 @@
                 '999',
                 '203',
                 'gast',
-                '202'
+                '202',
+                '104'
             ]
 
             var name_user;
