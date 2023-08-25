@@ -5,7 +5,8 @@
             'thdwlgn',
             'toyotoyo0705',
             'jibboong',
-            'puppisi3'
+            'puppisi3',
+            'minnim0416'
             ];
 
             const userPW =
@@ -15,7 +16,8 @@
             'a1b2c3d4',
             'akvhqkqh1234',
             'bbiriribbangbborong',
-            'Nabinunbaboya0113'
+            'Nabinunbaboya0113',
+            'minnim0416'
             ];
 
             const userNAME =
@@ -25,7 +27,8 @@
             '토레비',
             '마포',
             '지풍',
-            '토이'
+            '토이',
+            '민'
             ]
 
             const userCode = 
@@ -35,7 +38,8 @@
                 '203',
                 'gast',
                 '202',
-                '104'
+                '104',
+                '301'
             ]
 
             var name_user;
